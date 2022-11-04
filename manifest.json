@@ -1,0 +1,16 @@
+{
+    "name": "Always visible exchange currency rates",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "alarms",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Current currency",
+        "default_popup": "popup.html"
+    }
+}
